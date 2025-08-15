@@ -1,10 +1,7 @@
 # Pathfinder
 
-A Python console app to search for files by **name** and **(text) content**.  
-By default, it searches common user folders like Desktop, Documents, Downloads, Pictures, etc.
-
-![Example Output](ex-output.png) ![Help Description](help-desc.png)
-
+A Python cli program to search for files by **name** and **(text) content**.  
+By default, it searches common user folders with names like; Desktop, Documents, Downloads, Pictures, Screenshots etc.
 
 
 ## Features
@@ -17,6 +14,16 @@ By default, it searches common user folders like Desktop, Documents, Downloads, 
 - Simple relevance scoring (filename, extension, content hits).
 - Cross-platform: macOS / Linux / Windows.
 
+## Pre-reqs
+- Python3.9+
+
 ## Install (editable dev mode)
 ```bash
 pip install -e .
+```
+## Run (basic)
+```bash
+pathfinder --filename-only "type:image" pfp
+```
+
+![Example Output](ex-output.png) ![Help Description](help-desc.png)
