@@ -3,6 +3,10 @@
 A Python console app to search for files by **name** and **(text) content**.  
 By default, it searches common user folders like Desktop, Documents, Downloads, Pictures, etc.
 
+![Example Output](ex-output.png) ![Help Description](help-desc.png)
+
+
+
 ## Features
 - Search by filename (substring or exact).
 - Search inside text-based files (utf-8/latin-1 tolerant).
