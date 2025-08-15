@@ -26,4 +26,5 @@ pip install -e .
 pathfinder --filename-only "type:image" pfp
 ```
 
-![Example Output](ex-output.png) ![Help Description](help-desc.png)
+![Example Output](ex-output.png) 
+![Help Description](help-desc.png)
